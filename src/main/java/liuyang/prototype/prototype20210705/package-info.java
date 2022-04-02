@@ -4,6 +4,6 @@
  * 1. 先逐步啊编写除了archived/CityAlmServiceConnector及其测试类
  * 2. 上一步测试通过后，抽取抽象类到common.connector中。
  *
- * 迁移自test-java。现test-java中已无该段代码。
+ * 2022/4/2 迁移自test-java。现test-java中已无该段代码。
  */
 package liuyang.prototype.prototype20210705;

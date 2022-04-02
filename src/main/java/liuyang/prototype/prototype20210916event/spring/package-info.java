@@ -8,4 +8,4 @@
  * @author liuyang
  * @scine 2021/9/16
  */
-package liuyang.prototype.prototype20210916event.spring.listener;
+package liuyang.prototype.prototype20210916event.spring;
