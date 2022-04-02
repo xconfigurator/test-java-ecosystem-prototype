@@ -1,8 +1,8 @@
 package liuyang.prototype.prototype20210705;
 
-import liuyang.a.migration.questions.prototype20210705.common.Vendors;
-import liuyang.a.migration.questions.prototype20210705.common.connector.ConnInfo;
-import liuyang.a.migration.questions.prototype20210705.common.connector.ServiceConnector;
+import liuyang.prototype.prototype20210705.common.Vendors;
+import liuyang.prototype.prototype20210705.common.connector.ConnInfo;
+import liuyang.prototype.prototype20210705.common.connector.ServiceConnector;
 
 import java.util.Optional;
 
@@ -18,11 +18,11 @@ public class CityAlmServiceConnector extends ServiceConnector<CityAlmInterface> 
         Vendors vendor = connInfo.getVendor();
 
         if (Vendors.HBFEC == connInfo.getVendor()) {
-            result = getPort(wsdlLocation, "liuyang.a.migration.questions.test20210705.adapter.hbfec.CityAlmServiceAdapter");
+            result = getPort(wsdlLocation, "liuyang.prototype.prototype20210705.adapter.hbfec.CityAlmServiceAdapter");
         }
 
         if (Vendors.HYTERA == connInfo.getVendor()){
-            result = getPort(wsdlLocation, "liuyang.a.migration.questions.test20210705.adapter.hytera.CityAlmServiceAdapter");
+            result = getPort(wsdlLocation, "liuyang.prototype.prototype20210705.adapter.hytera.CityAlmServiceAdapter");
         }
 
         return result;
